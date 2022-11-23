@@ -8,18 +8,18 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',wx4ccc41f1f2c1ff96
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',7587e38056dec1fce1694ec2fa77fc44
+  APP_SECRET: '',
 
-  PROVINCE: '河南',
-  CITY: '郑州',
+  PROVINCE: '',
+  CITY: '',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -29,16 +29,16 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '05-08',
+          type: '*生日', name: '宝贝1', year: '', date: '01-08',
         },
        
-          type: '节日', name: '相识纪念日', year: '2022', date: '06-09',
+          type: '节日', name: '相识纪念日', year: '2012', date: '02-09',
         },
       ],
-      // 我们在一起已经有118天了
+      // 我们在一起已经有555天了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-08' },
+        { keyword: 'love_day', date: '2012-01-08' },
       ],
     },
   ],
